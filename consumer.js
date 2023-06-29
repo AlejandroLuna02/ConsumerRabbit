@@ -24,7 +24,7 @@ async function connect() {
         let config = {
           method: 'post',
           maxBodyLength: Infinity,
-          url: 'http://localhost:4000/products/',
+          url: 'http://52.3.122.85:4000/products/',
           headers: { 
             'Content-Type': 'application/json', 
             'Accept': 'application/json'
